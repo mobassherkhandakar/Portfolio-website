@@ -8,6 +8,9 @@
 li{
     list-style: none;
 }
+img{
+    max-width: 100%;
+}
 a{
     text-decoration: none;
 }
@@ -29,7 +32,7 @@ a{
     left: 23px;
 }
 .side-img img{
-    width: 100%;
+    max-width: 90%;
 }
 .nav{
     display: flex;
@@ -69,6 +72,7 @@ a{
     color: #FFFFFF;
     font-size: 20px;
     line-height: 27px;
+    cursor: pointer;
 }
 /* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
                     banner Area
@@ -76,7 +80,7 @@ a{
 .banner{
     display: flex;
     align-items: center;
-    margin: 0 50px 0 200px;
+    margin: 60px 50px 0 200px;
 }
 
 .text-titel h3{
@@ -122,4 +126,49 @@ a{
     border-radius: 3px;
     color: #FD6E0A;
     margin-left: 30px;
+}
+/* .images img{
+    width: 800px;
+    height: auto;
+} */
+/* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
+                    Main Area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+main{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.about{
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 130px;
+    padding: 130px 157px;
+    text-align: center;
+}
+.section-title{
+    color: #181818;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
+}
+.info-description{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+
 }
