@@ -169,6 +169,14 @@ main{
 .info-description{
     color: #474747;
     font-weight: 700;
-    font-size: 20px;
-
+}
+/* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
+                    what i do Area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.what-i-do{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 130px;
+    padding: 130px 157px;
+    text-align: center;
 }
