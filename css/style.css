@@ -3,8 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
     font-family: 'Open Sans', sans-serif;
 }
 li{
@@ -17,8 +15,8 @@ a{
                     Header Area
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 .header{
-    background: #FFF8F3;
-    background: url('../images/header_bg.png');
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: right bottom;
     position: relative;
@@ -30,10 +28,14 @@ a{
     top: 38px;
     left: 23px;
 }
+.side-img img{
+    width: 100%;
+}
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px 185px 200px;
+    padding: 20px 200px 20px 200px;
+    align-items: center;
 }
 .logo{
     font-weight: 800;
@@ -53,8 +55,11 @@ a{
 }
 .menu a{
     color: #474747;
+    font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    text-transform: capitalize;
+    line-height: 27px;
 }
 .btn-praimary{
     background: #FD6E0A;
@@ -65,6 +70,15 @@ a{
     font-size: 20px;
     line-height: 27px;
 }
+/* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
+                    banner Area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 50px 0 200px;
+}
+
 .text-titel h3{
     font-style: normal;
     font-weight: 600;
@@ -76,12 +90,36 @@ a{
     font-weight: 700;
     font-size: 85px;
     line-height: 116px;
+    font-style: normal;
     color: #181818;
 }
 .text-titel p{
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     color: #757575;
+    margin: 20px 0;
+    font-style: normal;
+}
+.btn-1{
+    font-weight: 700;
+    background: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    padding: 17px 18px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.btn-2{
+    border: 1px solid #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    padding: 18px 24px;
+    border-radius: 3px;
+    color: #FD6E0A;
+    margin-left: 30px;
 }
